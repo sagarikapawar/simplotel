@@ -1,0 +1,323 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.navbar {
+    background-color: #ff6863;
+    height: 30px;
+    width: 100vw;
+    margin: 0px;
+    text-align: right;
+}
+
+.list-items {
+    display: none;
+}
+
+.burger {
+    height: 13px;
+    width: 13px;
+}
+
+.app-container {
+    background-image: linear-gradient(to right, #FFD580, #FFB6C1);
+    height: 86vh;
+    width: 100vw;
+    background-image: cover;
+    text-align: center;
+    box-shadow: 2px;
+    margin-bottom: 10px;
+
+
+}
+
+.app-container1 {
+    background-image: linear-gradient(to right, #FFD580, #FFB6C1);
+    height: 87vh;
+    width: 100vw;
+    background-image: cover;
+
+    box-shadow: 2px;
+    text-align: center;
+    padding: 6px;
+
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+    font-family: "monospace";
+}
+
+.paragraph {
+    font-size: 12px;
+    font-family: "monospace";
+    margin: 10px;
+}
+
+.button {
+    background-color: #ff6863;
+    font-family: "Roboto";
+    font-size: 13px;
+    width: 100px;
+    height: 30px;
+    border-style: none;
+    margin: 10px;
+    color: #ffffff;
+}
+
+.image {
+    height: 60vh;
+    width: 100vw;
+}
+
+.stage-image {
+    height: 200px;
+    width: 200px;
+    margin: 4px;
+}
+
+.food-image {
+    height: 408px;
+    width: 200px;
+    margin: 4px;
+}
+
+.inner-container {
+    display: flex;
+}
+
+.lorem-container {
+    background-color: #ff6863;
+    height: 220px;
+    width: 400px;
+    margin: 0px;
+}
+
+.lorem-para {
+    font-size: 16px;
+    font-family: "Roboto";
+    margin: 6px;
+}
+
+.lorem-heading {
+    font-size: 30px;
+    font-family: "Roboto";
+    margin: 6px;
+
+}
+
+.arrow {
+    height: 14px;
+    width: 18px;
+    font-size: 12px;
+}
+
+@media screen and (min-width:577px) and (max-width:767px) {
+    .burger {
+        height: 13px;
+        width: 13px;
+        text-align: right;
+    }
+
+    .list-items {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .app-container {
+        height: 60vh;
+        width: 100vw;
+        margin-bottom: 10px;
+    }
+
+    .navbar {
+        height: 60px;
+        width: 100vw;
+        text-align: center;
+
+    }
+
+    .a-conatainer {
+        display: flex;
+
+        height: 100vh;
+        width: 100vw;
+
+    }
+
+    .list-items {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 22px;
+        padding: 10px;
+        margin: 10px;
+        font-weight: 580;
+        font-family: Garamond;
+    }
+
+    .b-container {
+        margin-right: 4px;
+    }
+
+    .image {
+        height: 54vh;
+        width: 70vw;
+        
+    }
+
+    .heading {
+        font-weight: bold;
+        font-size: 32px;
+        margin: 10px;
+
+        font-family: "monospace";
+    }
+
+    .paragraph {
+        font-size: 20px;
+        font-family: "monospace";
+        margin: 10px;
+    }
+
+    .burger {
+        height: 50px;
+        width: 50px;
+    }
+
+    .app-container1 {
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        width: 100vw;
+    }
+
+    .lorem-container {
+        height: 20vh;
+        width: 50vw;
+
+    }
+
+    .inner-container {
+        text-align: center;
+        margin: 4px;
+    }
+
+    .food-image {
+        height: 410px;
+        width: 230px;
+        margin: 4px;
+    }
+
+    .stage-image {
+        height: 200px;
+        width: 200px;
+        margin: 4px;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .app-container {
+        height: 60vh;
+        width: 100vw;
+        margin-bottom: 10px;
+    }
+
+    .navbar {
+        height: 60px;
+        width: 100vw;
+        text-align: center;
+
+    }
+
+    .a-conatainer {
+        display: flex;
+
+        height: 100vh;
+        width: 100vw;
+
+    }
+
+    .list-items {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 22px;
+        padding: 10px;
+        margin: 10px;
+        font-weight: 580;
+        font-family: Garamond;
+    }
+
+    .b-container {
+        margin-right: 4px;
+    }
+
+    .image {
+        height: 54vh;
+        width: 70vw;
+    }
+
+    .heading {
+        font-weight: bold;
+        font-size: 32px;
+        margin: 10px;
+
+        font-family: "monospace";
+    }
+
+    .paragraph {
+        font-size: 20px;
+        font-family: "monospace";
+        margin: 10px;
+    }
+
+    .burger {
+        height: 50px;
+        width: 50px;
+    }
+
+    .app-container1 {
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        width: 100vw;
+    }
+
+    .lorem-container {
+        height: 20vh;
+        width: 50vw;
+
+    }
+
+    .inner-container {
+        text-align: center;
+        margin: 4px;
+    }
+
+    .food-image {
+        height: 410px;
+        width: 230px;
+        margin: 4px;
+    }
+
+    .stage-image {
+        height: 200px;
+        width: 200px;
+        margin: 4px;
+    }
+
+}
